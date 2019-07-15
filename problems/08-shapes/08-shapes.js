@@ -20,6 +20,16 @@ Example for printShape("Diamond", 5, "*");
  ***
   * 
 */
-function printShape(shape, height, character) {
+/*function printShape(shape, height, character) {
+
+  var canvas = document.getElementById('canvas');
+  if (canvas.getContext) {
+    var ctx = canvas.getContext('2d');
+
+    ctx.fillRect(25, 25, 100, 100);
+    ctx.clearRect(45, 45, 60, 60);
+    ctx.strokeRect(50, 50, 50, 50);
+  }
   
 }
+console.log(fillRect(25,25,100,100));
